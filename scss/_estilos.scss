@@ -1,8 +1,5 @@
 /*CUERPO*/
-body{
-    background: url(../recursos/fondo1.jpg);
-    background-size: contain;
-}
+/*tienda,index*/
 article img {
     height: 350px;
     width: 250px;
@@ -18,7 +15,7 @@ button {
 }
 a {
     display: block;
-    font-weight: bold;;
+    font-weight: bold;
     width: auto;
     padding: 10px 10px;
     border-radius: 30px;
@@ -40,6 +37,7 @@ a.comprar {
     font-family: "Pacifico"; 
 
 }
+/* Seccion de la primera seccion de prendas*/
 .prendas {
     display: flex;
     margin-top: 40px;
@@ -48,15 +46,18 @@ a.comprar {
     margin: 0% auto;
     margin-top: 30px;
 }
+/*Seccion de la segunda seccion de prendas*/
 .prendas2 {
     display: flex;
     margin-top: 40px;
     justify-content: center;
 }
+/*Forma parte de la seccion uno*/
 .prenda1 {
     padding: 0px 0px ;
     justify-content: flex-start;
 }
+/*Forma parte de la seccion dos*/
 .prenda2{
     justify-content: flex-end;
 }
@@ -87,9 +88,11 @@ a.comprar {
     height: 350px;
 
 }
+/*Formulario*/
 input {
     display: block;
 }
+
 .formu {
     display: flex;
     justify-content: center;
@@ -128,8 +131,6 @@ input {
 .promociones {
     display: flex;
     justify-content: space-around;
-
-
 }
 .piedepagina {
     display: flex;

@@ -10,6 +10,10 @@
   src: url(../recursos/ZenAntiqueSoft-Regular.ttf);
   font-style: normal; }
 
+body {
+  background: url(../recursos/fondo1.jpg);
+  background-size: contain; }
+
 /*HEADER*/
 header {
   max-width: 1200px;
@@ -60,10 +64,7 @@ header {
     transform: scale(1); } }
 
 /*CUERPO*/
-body {
-  background: url(../recursos/fondo1.jpg);
-  background-size: contain; }
-
+/*tienda,index*/
 article img {
   height: 350px;
   width: 250px;
@@ -100,6 +101,7 @@ a.comprar {
   text-align: center;
   font-family: "Pacifico"; }
 
+/* Seccion de la primera seccion de prendas*/
 .prendas {
   display: flex;
   margin-top: 40px;
@@ -108,15 +110,18 @@ a.comprar {
   margin: 0% auto;
   margin-top: 30px; }
 
+/*Seccion de la segunda seccion de prendas*/
 .prendas2 {
   display: flex;
   margin-top: 40px;
   justify-content: center; }
 
+/*Forma parte de la seccion uno*/
 .prenda1 {
   padding: 0px 0px;
   justify-content: flex-start; }
 
+/*Forma parte de la seccion dos*/
 .prenda2 {
   justify-content: flex-end; }
 
@@ -146,6 +151,7 @@ a.comprar {
   width: 110px;
   height: 350px; }
 
+/*Formulario*/
 input {
   display: block; }
 
