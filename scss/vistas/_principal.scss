@@ -1,0 +1,94 @@
+/*CUERPO*/
+/*tienda,index*/
+
+article {
+    display: flex;
+
+    & img {
+        height: 350px;
+        width: 250px;
+        border:5px solid #404040 ;
+        margin-left: 20px;
+    }
+    & ul {
+        list-style-type: none;
+
+        & .comprar {
+            display: block;
+            font-weight: bold;
+            width: auto;
+            padding: 10px 10px;
+            border-radius: 30px;
+            border: solid black;
+            color: black;
+            text-align: center;
+            font-family: "Pacifico"; 
+        }
+    }    
+}
+
+a {
+    display: block;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid black;
+    text-decoration: none;
+}
+
+
+/* Primera seccion de prendas*/
+.prendas {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0% auto;
+    margin-top: 30px;
+    
+    & .prenda1 {
+    padding: 0px 0px ;
+    justify-content: flex-start;
+
+        & .contenedor1 {
+            display: block;
+            flex-direction: row;
+            width: max-content;
+            text-align: center;
+            align-items: right;
+
+            & img {
+                transition: ease-in 0.8s;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+/*Seccion de la segunda seccion de prendas*/
+.prendas2 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+    & .prenda2{
+        justify-content: flex-end;
+    }
+}
+
+.contenedor2 img:hover {
+    transform: scale(1.2);
+}
+
+.contenedor2 img{
+    transition: ease-in 0.8s;
+}
+.lista1 {
+    padding-top: 100px;
+    margin: 10px;
+    width: 110px;
+    height: 350px;
+}

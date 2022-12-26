@@ -41,13 +41,13 @@ header {
     header .encabezado nav {
       display: flex;
       animation: ease-in animacion 1.5s; }
-      header .encabezado nav a {
+      header .encabezado nav .navopcion {
         text-decoration: none;
         font-size: 20px;
         padding: 10px;
         margin-right: 10px;
         margin-left: 10px; }
-        header .encabezado nav a :hover {
+        header .encabezado nav .navopcion :hover {
           color: #404040; }
     header .encabezado img {
       width: 150px;
@@ -65,18 +65,25 @@ header {
 
 /*CUERPO*/
 /*tienda,index*/
-article img {
-  height: 350px;
-  width: 250px;
-  border: 5px solid #404040;
-  margin-left: 20px; }
-
 article {
   display: flex; }
-
-button {
-  font-size: large;
-  font-weight: bold; }
+  article img {
+    height: 350px;
+    width: 250px;
+    border: 5px solid #404040;
+    margin-left: 20px; }
+  article ul {
+    list-style-type: none; }
+    article ul .comprar {
+      display: block;
+      font-weight: bold;
+      width: auto;
+      padding: 10px 10px;
+      border-radius: 30px;
+      border: solid black;
+      color: black;
+      text-align: center;
+      font-family: "Pacifico"; }
 
 a {
   display: block;
@@ -87,21 +94,7 @@ a {
   border: solid black;
   text-decoration: none; }
 
-ul {
-  list-style-type: none; }
-
-a.comprar {
-  display: block;
-  font-weight: bold;
-  width: auto;
-  padding: 10px 10px;
-  border-radius: 30px;
-  border: solid black;
-  color: black;
-  text-align: center;
-  font-family: "Pacifico"; }
-
-/* Seccion de la primera seccion de prendas*/
+/* Primera seccion de prendas*/
 .prendas {
   display: flex;
   margin-top: 40px;
@@ -109,38 +102,30 @@ a.comprar {
   max-width: 1200px;
   margin: 0% auto;
   margin-top: 30px; }
+  .prendas .prenda1 {
+    padding: 0px 0px;
+    justify-content: flex-start; }
+    .prendas .prenda1 .contenedor1 {
+      display: block;
+      flex-direction: row;
+      width: max-content;
+      text-align: center;
+      align-items: right; }
+      .prendas .prenda1 .contenedor1 img {
+        transition: ease-in 0.8s; }
+        .prendas .prenda1 .contenedor1 img:hover {
+          transform: scale(1.2); }
 
 /*Seccion de la segunda seccion de prendas*/
 .prendas2 {
   display: flex;
   margin-top: 40px;
   justify-content: center; }
-
-/*Forma parte de la seccion uno*/
-.prenda1 {
-  padding: 0px 0px;
-  justify-content: flex-start; }
-
-/*Forma parte de la seccion dos*/
-.prenda2 {
-  justify-content: flex-end; }
-
-.contenedor1 {
-  display: block;
-  flex-direction: row;
-  width: max-content;
-  text-align: center;
-  align-items: right; }
-
-/* ANIMACIONES EN TIENDA */
-.contenedor1 img:hover {
-  transform: scale(1.2); }
+  .prendas2 .prenda2 {
+    justify-content: flex-end; }
 
 .contenedor2 img:hover {
   transform: scale(1.2); }
-
-.contenedor1 img {
-  transition: ease-in 0.8s; }
 
 .contenedor2 img {
   transition: ease-in 0.8s; }
