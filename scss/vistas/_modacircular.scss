@@ -1,0 +1,49 @@
+
+.queeslamoda {
+    font-family: "Pacifico";
+    text-align: center;
+    padding: 10px;
+
+}
+.modatexto {
+    font-family: "Pacifico";
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0% auto;
+    text-align: justify center;
+}
+.grid img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+/* Animacion a MODACIRCULAR */
+.grid img:hover {
+    transform: scale(1.5);
+
+}
+/* FIN */
+.podcast {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.podcast:hover {
+    transform: scale(1.5);
+
+
+}
+
+/* GRID EN PESTAÑA MODA CIRCULAR, */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 40px;
+    justify-items: center;
+    margin-top: 20px;
+}

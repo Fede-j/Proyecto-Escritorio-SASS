@@ -1,0 +1,45 @@
+
+.TITULOCONTACTO {
+    font-family: "Pacifico";
+    display: flex;
+    justify-content: center;
+}
+ul .listacontacto {
+    font-family: "Pacifico";
+    padding: 5px;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doble {
+    display: flex;
+    justify-content: center;
+}
+.formulariocontacto {
+    font-family: "Pacifico";
+    margin-left: 40px;
+    background-color: #dbe4d486;
+    padding: 40px;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    box-shadow: 0 0 40px -10px;
+    
+}
+button {
+    font-family: "Pacifico";
+    margin-top: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.CcC {
+    margin-bottom: 10px ;
+}
+.input1 {
+    padding: 10px;
+    margin: 7px;
+}
