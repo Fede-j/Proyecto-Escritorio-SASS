@@ -13,6 +13,17 @@ article {
     & ul {
         list-style-type: none;
 
+        & .cartel {
+            display: block;
+            font-weight: bold;
+            width: auto;
+            padding: 10px 10px;
+            border-radius: 30px;
+            border: solid black;
+            text-decoration: none;
+        }
+
+
         & .comprar {
             display: block;
             font-weight: bold;
@@ -22,20 +33,12 @@ article {
             border: solid black;
             color: black;
             text-align: center;
-            font-family: "Pacifico"; 
+            font-family: "Pacifico";
+            text-decoration: none; 
         }
     }    
 }
 
-a {
-    display: block;
-    font-weight: bold;
-    width: auto;
-    padding: 10px 10px;
-    border-radius: 30px;
-    border: solid black;
-    text-decoration: none;
-}
 
 
 /* Primera seccion de prendas*/

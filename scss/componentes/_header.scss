@@ -20,11 +20,11 @@ header {
         height: 100px;
         border: 3px solid #404040;
 
-        & h2 {
+        & .TITULOPRINCIPAL {
             text-align: center;
             align-items: flex-start;
             justify-content: center;
-            font-size: 40px;
+            font-size: 30px;
         }
 
         & nav {
@@ -34,12 +34,17 @@ header {
             & .navopcion {
                 text-decoration: none;
                 font-size: 20px;
+                font-weight: bold;
                 padding: 10px;
                 margin-right: 10px;
                 margin-left: 10px;
+                color: #262626;
+                border: solid black;
+                border-radius: 30px;
                 
                 
-                & :hover {
+                
+                &:hover {
                     color: #404040;
                 } 
             }
