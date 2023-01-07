@@ -67,6 +67,92 @@ header {
   100% {
     transform: scale(1); } }
 
+.TITULOCONTACTO {
+  font-family: "Pacifico";
+  display: flex;
+  justify-content: center; }
+
+ul .listacontacto {
+  font-family: "Pacifico";
+  padding: 5px;
+  margin: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.doble {
+  display: flex;
+  justify-content: center; }
+
+.formulariocontacto {
+  font-family: "Pacifico";
+  margin-left: 40px;
+  background-color: #dbe4d486;
+  padding: 40px;
+  border-radius: 10px;
+  height: 350px;
+  width: 300px;
+  border: 1px solid black;
+  justify-content: flex-end;
+  box-shadow: 0 0 40px -10px; }
+
+button {
+  font-family: "Pacifico";
+  margin-top: 10px;
+  padding: 5px;
+  background-color: aquamarine; }
+
+.CcC {
+  margin-bottom: 10px; }
+
+.input1 {
+  padding: 10px;
+  margin: 7px; }
+
+.queeslamoda {
+  font-family: "Pacifico";
+  text-align: center;
+  padding: 10px; }
+
+.modatexto {
+  font-family: "Pacifico";
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0% auto;
+  text-align: justify center; }
+
+.grid img {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 20px; }
+
+/* Animacion a MODACIRCULAR */
+.grid img:hover {
+  transform: scale(1.5); }
+
+/* FIN */
+.podcast {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 20px; }
+
+.podcast:hover {
+  transform: scale(1.5); }
+
+/* GRID EN PESTAÑA MODA CIRCULAR, */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+  margin-top: 20px; }
+
 /*CUERPO*/
 /*tienda,index*/
 article {
@@ -208,9 +294,9 @@ input {
     display: block;
     margin-top: 0px; }
   .prenda1 {
-    justify-content: center; }
+    justify-content: center !important; }
   .prenda2 {
-    justify-content: center; }
+    justify-content: center !important; }
   .prend3 {
     justify-content: center; }
   .hamburguesa {
@@ -243,89 +329,3 @@ input {
   .grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr); } }
-
-.TITULOCONTACTO {
-  font-family: "Pacifico";
-  display: flex;
-  justify-content: center; }
-
-ul .listacontacto {
-  font-family: "Pacifico";
-  padding: 5px;
-  margin: 10px;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.doble {
-  display: flex;
-  justify-content: center; }
-
-.formulariocontacto {
-  font-family: "Pacifico";
-  margin-left: 40px;
-  background-color: #dbe4d486;
-  padding: 40px;
-  border-radius: 10px;
-  height: 350px;
-  width: 300px;
-  border: 1px solid black;
-  justify-content: flex-end;
-  box-shadow: 0 0 40px -10px; }
-
-button {
-  font-family: "Pacifico";
-  margin-top: 10px;
-  padding: 5px;
-  background-color: aquamarine; }
-
-.CcC {
-  margin-bottom: 10px; }
-
-.input1 {
-  padding: 10px;
-  margin: 7px; }
-
-.queeslamoda {
-  font-family: "Pacifico";
-  text-align: center;
-  padding: 10px; }
-
-.modatexto {
-  font-family: "Pacifico";
-  padding: 10px;
-  max-width: 1200px;
-  margin: 0% auto;
-  text-align: justify center; }
-
-.grid img {
-  display: flex;
-  justify-content: center;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
-
-/* Animacion a MODACIRCULAR */
-.grid img:hover {
-  transform: scale(1.5); }
-
-/* FIN */
-.podcast {
-  display: flex;
-  justify-content: center;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
-
-.podcast:hover {
-  transform: scale(1.5); }
-
-/* GRID EN PESTAÑA MODA CIRCULAR, */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 40px;
-  justify-items: center;
-  margin-top: 20px; }
