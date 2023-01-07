@@ -85,7 +85,8 @@ article {
       padding: 10px 10px;
       border-radius: 30px;
       border: solid black;
-      text-decoration: none; }
+      text-decoration: none;
+      color: brown; }
     article ul .comprar {
       display: block;
       font-weight: bold;
