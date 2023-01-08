@@ -1,6 +1,11 @@
 header {
     & .container-fluid  {
         background-color: #fede8b;
+
+        & .tituloprincipal {
+            font-size: 20px;
+        }
+        
     }
     & .navbar-brand img {
         height: 160px;
