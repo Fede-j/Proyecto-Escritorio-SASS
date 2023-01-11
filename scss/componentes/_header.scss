@@ -1,14 +1,17 @@
 header {
     & .container-fluid  {
         background-color: #fede8b;
+        max-width: 1200px;
+        // height: 120px;
 
         & .tituloprincipal {
             font-size: 40px;
+            font-family: "Pacifico";
         }
         
     }
     & .navbar-brand img {
-        height: 160px;
+        height: 120px;
     }
     
     
@@ -20,7 +23,10 @@ header {
     padding: 0px;
 }
 .nav-link {
-    font-size: 30px;
+    font-size: 20px;
+    border: black solid;
+    font-family: "Pacifico";
+    margin: 5px;
 }
 .publicidad {
             text-align: "center";
