@@ -16,9 +16,25 @@ body {
 
 header .container-fluid {
   background-color: #fede8b; }
+  header .container-fluid .tituloprincipal {
+    font-size: 40px; }
 
 header .navbar-brand img {
   height: 160px; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.nav-link {
+  font-size: 30px; }
+
+.publicidad {
+  text-align: "center";
+  font-size: x-small;
+  font-style: normal;
+  font-family: "Pacifico";
+  background-color: #F2DCEB;
+  text-align: center; }
 
 /*HEADER sin bootstrap*/
 .TITULOCONTACTO {

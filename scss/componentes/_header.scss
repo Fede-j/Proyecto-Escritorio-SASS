@@ -3,16 +3,38 @@ header {
         background-color: #fede8b;
 
         & .tituloprincipal {
-            font-size: 20px;
+            font-size: 40px;
         }
         
     }
     & .navbar-brand img {
         height: 160px;
-    } 
+    }
+    
+    
 }
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-expand-lg {
+    padding: 0px;
+}
+.nav-link {
+    font-size: 30px;
+}
+.publicidad {
+            text-align: "center";
+            font-size: x-small;
+            font-style: normal;
+            font-family: "Pacifico";
+            background-color: #F2DCEB;;
+            text-align: center;
+        }
 
-
+h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
 
 
 
