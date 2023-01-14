@@ -42,7 +42,9 @@ header .navbar-brand img {
   font-style: normal;
   font-family: "Pacifico";
   background-color: #F2DCEB;
-  text-align: center; }
+  text-align: center;
+  max-width: 1200px;
+  margin: auto; }
 
 h2 {
   font-size: 20px;
